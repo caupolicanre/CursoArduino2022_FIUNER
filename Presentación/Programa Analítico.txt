@@ -1,0 +1,29 @@
+https://distancia.ingenieria.uner.edu.ar/mod/page/view.php?id=11444
+
+Contenidos
+Generalidades de un sistema microcontrolado
+Herramientas de Programación (herramientas y lenguaje)
+Consideraciones de conexionado de hardware (entradas y salidas, voltaje, corriente)
+Salidas digitales (Manejo de LEDs)
+Entradas digitales (Tecla, llave pulsadores)
+Salidas analógicas (DAC y PWM)
+Entradas analógicas (ADC)
+Módulos de Adquisición de señales (ECG y EMG)
+Módulos de conectividad Inalámbrica (HC05 - HC06)
+Prototipado de aplicaciones
+
+
+Objetivos
+
+Objetivos Generales:
+
+Fomentar el uso de sistemas embebidos y el desarrollo de aplicaciones electrónicas en el ámbito de la Bioinformática, Bioingeniería e Ingeniería en Transporte.
+
+
+Objetivos Particulares:
+
+Asimilar los conceptos básicos de electrónica.
+Manejar el entorno de desarrollo integrado de arduino.
+Comprender los principios de programación de microcontroladores.
+Construir circuitos ba´sicos con arduino.
+Trabajar con sensores y la placa arduino.
