@@ -1,0 +1,26 @@
+-------------------------------
+Mundo electrónico - 5 Esquinas
+-------------------------------
+. Placa Mega 2560 | $6500
+
+===============================
+
+-------------------------------
+Lega Electrónica
+-------------------------------
+. 
+
+
+MERCADO LIBRE
+Resistencias:
+1403 Resistencia 1/4 5% Carbon 100 x 10u
+1403 Resistencia 1/4 5% Carbon 100 x 10u
+1408 Resistencia 1/4 5% Carbon 1k x 10u
+1408 Resistencia 1/4 5% Carbon 1k x 10u
+1396 Resistencia 1/4 5% Carbon 10k x 10u
+1396 Resistencia 1/4 5% Carbon 10k x 10u
+
+Si hay stock de las 220:
+1419 Resistencia 1/4 5% Carbon 220 x 10u
+1419 Resistencia 1/4 5% Carbon 220 x 10u
+Si no hay stock de las 220:
