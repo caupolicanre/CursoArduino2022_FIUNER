@@ -31,7 +31,7 @@
 
 # ⌨️ Actividades
 
-> ****Guía****
+> *Guía*
 > 
 > 
 > [Guía 1: Herramientas - Hello World](https://docs.google.com/document/d/16uiOu0zg6UIExf4PoiJ4tSq9lVoX3vDSt8ILKTXpob0)
