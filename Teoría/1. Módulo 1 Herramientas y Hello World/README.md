@@ -16,7 +16,7 @@
 > 
 > [Diapositivas de la clase](https://docs.google.com/presentation/d/1VEM5nxEVCEm3oYbyKCCGZwpLSM7952ATvAAZyaE6-ao)
 > 
-> [Herramientas - Hello World.pdf](Herramientas_-_Hello_World.pdf)
+> [Herramientas - Hello World.pdf](Herramientas - Hello World.pdf)
 > 
 
 ## 📑 Material complementario
