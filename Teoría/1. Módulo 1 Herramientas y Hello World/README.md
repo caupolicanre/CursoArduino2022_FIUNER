@@ -36,7 +36,7 @@
 > 
 > [Guía 1: Herramientas - Hello World](https://docs.google.com/document/d/16uiOu0zg6UIExf4PoiJ4tSq9lVoX3vDSt8ILKTXpob0)
 > 
-> [Guía de trabajo 1_ Herramientas - Hello World.pdf](blob/main/Pr%C3%A1ctica/Gu%C3%ADa%201%20-%20Herramientas%20-%20Hello%20World/Gu%C3%ADa%20de%20trabajo%201_%20Herramientas%20-%20Hello%20World.pdf)
+> [Guía de trabajo 1_ Herramientas - Hello World.pdf](https://github.com/caupolicanre/CursoArduino2022_FIUNER/blob/main/Pr%C3%A1ctica/Gu%C3%ADa%201%20-%20Herramientas%20-%20Hello%20World/Gu%C3%ADa%20de%20trabajo%201_%20Herramientas%20-%20Hello%20World.pdf)
 > 
 
 > [Entrega Guía 1](https://drive.google.com/drive/folders/1kI8ssgFVeuBM7rRWlwhV_uqjgFapNXTF)
