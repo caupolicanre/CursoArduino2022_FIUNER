@@ -21,12 +21,12 @@
 
 ## 📑 Material complementario
 
-> *Diagrama esquemático de la placa ARDUINO UNO*
+> *Diagrama esquemático de placas ARDUINO*
 > 
 > 
 > [Arduino_Uno_Rev3-schematic.pdf](Arduino_Uno_Rev3-schematic.pdf)
 > 
-> [Arduino_Mega2560_R3-schematic.pdf]Arduino_Mega2560_R3-schematic.pdf
+> [Arduino_Mega2560_R3-schematic.pdf](Arduino_Mega2560_R3-schematic.pdf)
 
 ---
 
