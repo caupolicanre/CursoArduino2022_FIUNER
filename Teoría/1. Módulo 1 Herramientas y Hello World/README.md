@@ -54,7 +54,7 @@
 > 
 > - Código
 >     
->     [Herramientas - Hello World.pdf](1%20Modulo%201%20Herramientas%20-%20Hello%20World%206303567d45244fbab776a00031c8830c/Herramientas_-_Hello_World%201.pdf)
+>     [Poner Link al Código](https://www.notion.so)
 >     
 
 > *Ejercicio 2: “Blink de dos leds en forma simultánea”*
@@ -62,7 +62,7 @@
 > 
 > - Código
 >     
->     [https://www.notion.so](https://www.notion.so)
+>     [Poner Link al Código](https://www.notion.so)
 >     
 
 > ****************Ejercicio 3****************
@@ -71,7 +71,7 @@
 > 1. En función de lo observado ¿Por qué considera que es necesario generar un nuevo sketch para que ambos leds externos parpadeen?
 > - Código
 >     
->     [https://www.notion.so](https://www.notion.so)
+>     [Poner Link al Código](https://www.notion.so)
 >     
 
 > ****************Ejercicio 4****************
@@ -79,7 +79,7 @@
 > 
 > - Código
 >     
->     [https://www.notion.so](https://www.notion.so)
+>     [Poner Link al Código](https://www.notion.so)
 >     
 
 > ****************Ejercicio 5****************
@@ -87,7 +87,7 @@
 > 
 > - Código
 >     
->     [https://www.notion.so](https://www.notion.so)
+>     [Poner Link al Código](https://www.notion.so)
 >     
 
 > ****************Ejercicio 6:**************** ”*Blink condicionado por Pulsador”*
@@ -95,7 +95,7 @@
 > 
 > - Código
 >     
->     [https://www.notion.so](https://www.notion.so)
+>     [Poner Link al Código](https://www.notion.so)
 >     
 
 ---
