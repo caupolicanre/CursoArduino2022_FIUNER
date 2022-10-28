@@ -54,7 +54,7 @@
 > 
 > - Código
 >     
->     [https://www.notion.so](https://www.notion.so)
+>     [Herramientas - Hello World.pdf](1%20Modulo%201%20Herramientas%20-%20Hello%20World%206303567d45244fbab776a00031c8830c/Herramientas_-_Hello_World%201.pdf)
 >     
 
 > *Ejercicio 2: “Blink de dos leds en forma simultánea”*
