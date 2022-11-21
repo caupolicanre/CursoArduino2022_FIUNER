@@ -49,7 +49,7 @@
 
 ## 💻 Scripts
 
-> ****************Ejercicio 1: “Blink”****************
+> ****************Ejercicio 1: “Blink”****************  
 ”Instale el Entorno Integrado de Desarrollo Arduino IDE y ejecute el ejemplo de prueba *Blink.*”
 > 
 > - Código
