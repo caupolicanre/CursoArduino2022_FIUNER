@@ -55,46 +55,10 @@
 > - [Poner Link al Código](https://www.notion.so)
    
 
-> *Ejercicio 2: “Blink de dos leds en forma simultánea”*
+> ****************Ejercicio 2: “Blink de dos leds en forma simultánea”****************  
 ”Usando la protoboard, conecte un led al pin 13 de la placa. Para esto es necesario conectar una resistencia de polarización entre el led y el puerto GPIO de la placa.”
 > 
-> - Código
->     
->     [Poner Link al Código](https://www.notion.so)
->     
-
-> ****************Ejercicio 3****************
-”Usando la misma protoboard agregue un led más conectado al pin 8 de la placa. genere un nuevo sketch que permita que ambos leds parpadeen de igual manera que el led de la placa.”
-> 
-> 1. En función de lo observado ¿Por qué considera que es necesario generar un nuevo sketch para que ambos leds externos parpadeen?
-> - Código
->     
->     [Poner Link al Código](https://www.notion.so)
->     
-
-> ****************Ejercicio 4****************
-”Usando el conexionado del punto anterior, genere un nuevo sketch para que los leds externos parpadeen en contrafase, es decir, mientras uno esté encendido, el otro se mantenga apagado.”
-> 
-> - Código
->     
->     [Poner Link al Código](https://www.notion.so)
->     
-
-> ****************Ejercicio 5****************
-”Usando el conexionado del punto anterior, genere un nuevo sketch para que el led externo conectado al pin 13 parpadee al doble de frecuencia que el led conectado al pin 8.”
-> 
-> - Código
->     
->     [Poner Link al Código](https://www.notion.so)
->     
-
-> ****************Ejercicio 6:**************** ”*Blink condicionado por Pulsador”*
-”Agregue al conexionado un pulsador que permita detener (o deshabilitar) el parpadeo de los leds.”
-> 
-> - Código
->     
->     [Poner Link al Código](https://www.notion.so)
->     
+> - [Poner Link al Código](https://www.notion.so)
 
 ---
 
