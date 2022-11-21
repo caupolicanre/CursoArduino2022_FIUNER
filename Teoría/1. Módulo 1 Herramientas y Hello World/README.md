@@ -52,10 +52,8 @@
 > ****************Ejercicio 1: “Blink”****************  
 ”Instale el Entorno Integrado de Desarrollo Arduino IDE y ejecute el ejemplo de prueba *Blink.*”
 > 
-> - Código
->     
->     [Poner Link al Código](https://www.notion.so)
->     
+> - [Poner Link al Código](https://www.notion.so)
+   
 
 > *Ejercicio 2: “Blink de dos leds en forma simultánea”*
 ”Usando la protoboard, conecte un led al pin 13 de la placa. Para esto es necesario conectar una resistencia de polarización entre el led y el puerto GPIO de la placa.”
