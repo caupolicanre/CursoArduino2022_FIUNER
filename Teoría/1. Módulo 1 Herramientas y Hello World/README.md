@@ -24,9 +24,9 @@
 > *Diagrama esquemático de placas ARDUINO*
 > 
 > 
-> [Arduino_Uno_Rev3-schematic.pdf](1%20Modulo%201%20Herramientas%20-%20Hello%20World%206303567d45244fbab776a00031c8830c/Arduino_Uno_Rev3-schematic.pdf)
+> [Arduino_Uno_Rev3-schematic.pdf](https://github.com/caupolicanre/CursoArduino2022_FIUNER/blob/main/Teor%C3%ADa/1.%20M%C3%B3dulo%201%20Herramientas%20y%20Hello%20World/Arduino_Uno_Rev3-schematic.pdf)
 > 
-> [Arduino_Mega2560_R3-schematic.pdf](1%20Modulo%201%20Herramientas%20-%20Hello%20World%206303567d45244fbab776a00031c8830c/Arduino_Mega2560_R3-schematic.pdf)
+> [Arduino_Mega2560_R3-schematic.pdf](https://github.com/caupolicanre/CursoArduino2022_FIUNER/blob/main/Teor%C3%ADa/1.%20M%C3%B3dulo%201%20Herramientas%20y%20Hello%20World/Arduino_Mega2560_R3-schematic.pdf)
 > 
 
 ---
