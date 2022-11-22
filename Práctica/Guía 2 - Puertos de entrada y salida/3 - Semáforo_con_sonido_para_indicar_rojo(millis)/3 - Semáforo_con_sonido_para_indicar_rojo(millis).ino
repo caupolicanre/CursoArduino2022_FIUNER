@@ -1,3 +1,11 @@
+// Guía 2 - Puertos de entrada y salida
+// 3 - Semáforo_con_sonido_para_indicar_rojo(millis)
+// Reescriba el programa del ejercicio 2 sin utilizar retardos (delay)
+// Si necesita ayuda, puede revisar el uso de la función millis en la que incluso puede encontrar el ejemplo resuelto.
+// Responda: ¿Qué ventaja tiene este método respecto del empleado en el ejercicio 1?
+// La ventaja es que no se detiene el micro por cada delay, sino que se aprovecha todo el tiempo de ejecución
+
+
 // Pines
 #define ledRojo 9
 #define ledAmarillo 8

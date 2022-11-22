@@ -1,3 +1,19 @@
+// Guía 2 - Puertos de entrada y salida
+// 2 - Semáforo_con_sonido_para_indicar_rojo(delay)
+// Por medio de 3 LEDs y un buzzer armar un circuito que represente un semáforo.
+//
+// Secuencia a programar:
+// 1. Verde
+//	  Pausa Larga (4s)
+// 2. Amarillo
+//	  Pausa Corta (1s)
+// 3. Rojo con sonido
+//    Pausa Larga (4s)
+// 4. Rojo y amarillo
+//    Pausa Corta (1s)
+
+
+
 // Pines
 #define ledRojo 9
 #define ledAmarillo 8

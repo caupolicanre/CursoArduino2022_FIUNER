@@ -1,3 +1,7 @@
+// Guía 2 - Puertos de entrada y salida
+// 6 - Pulsador_y_liberar_enciende_LED
+// Con el mismo conexionado del ejercicio anterior, realice un programa que al pulsar (y liberar) encienda el LED y al volver a pulsar (y liberar), lo apague.
+
 
 // Pines
 #define led 8
