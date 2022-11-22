@@ -1,3 +1,4 @@
+// Guía 1 - Herramientas - Hello World
 // 4 - Blink de tres leds en contrafase
 // Usando el conexionado del punto anterior, genere un nuevo sketch para que los leds externos parpadeen en contrafase, es decir, mientras uno esté encendido, el otro se mantenga apagado.
 

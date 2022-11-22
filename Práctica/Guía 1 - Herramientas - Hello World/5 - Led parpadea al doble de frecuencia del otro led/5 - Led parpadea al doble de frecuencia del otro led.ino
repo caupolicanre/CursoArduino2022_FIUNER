@@ -1,3 +1,4 @@
+// Guía 1 - Herramientas - Hello World
 // 5 - Led parpadea al doble de frecuencia del otro led
 // Usando el conexionado del punto anterior, genere un nuevo sketch para que el led externo conectado al pin 13 parpadee al doble de frecuencia que el led conectado al pin 8.
 

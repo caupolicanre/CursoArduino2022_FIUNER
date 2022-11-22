@@ -1,3 +1,4 @@
+// Guía 1 - Herramientas - Hello World
 // 2 - Blink de dos leds en forma simultánea
 // Usando la protoboard, conecte un led al pin 13 de la placa. 
 // Para esto es necesario conectar una resistencia de polarización entre el led y el puerto GPIO de la placa.

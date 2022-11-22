@@ -22,6 +22,11 @@
   https://www.arduino.cc/en/Tutorial/BuiltInExamples/Blink
 */
 
+// Guía 1 - Herramientas - Hello World
+// 1 - Blink
+// Instale el Entorno Integrado de Desarrollo Arduino IDE y ejecute el ejemplo de prueba Blink.
+
+
 // the setup function runs once when you press reset or power the board
 void setup() {
   // initialize digital pin LED_BUILTIN as an output.

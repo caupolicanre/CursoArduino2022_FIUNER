@@ -1,3 +1,4 @@
+// Guía 1 - Herramientas - Hello World
 // 3 - Blink de tres leds en forma simultánea
 // Usando la misma protoboard agregue un led más conectado al pin 8 de la placa. 
 // Genere un nuevo sketch que permita que ambos leds parpadeen de igual manera que el led de la placa.

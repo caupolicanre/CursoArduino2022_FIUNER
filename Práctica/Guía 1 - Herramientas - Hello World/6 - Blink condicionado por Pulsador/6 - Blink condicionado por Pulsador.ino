@@ -1,3 +1,4 @@
+// Guía 1 - Herramientas - Hello World
 // 6 - Blink condicionado por Pulsador
 // Agregue al conexionado un pulsador que permita detener (o deshabilitar) el parpadeo de los leds.
 
