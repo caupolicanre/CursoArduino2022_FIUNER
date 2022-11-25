@@ -1,3 +1,13 @@
+// Guía 3 - Puertos de comunicación serie
+// 1 - Pulsador_y_liberar_enciende_LED_Mensaje
+// Tomando como referencia el ejercicio 6 de la Guía 2 
+// (Con el mismo conexionado del ejercicio anterior, realice un programa que al pulsar (y liberar) encienda el LED y al volver a pulsar (y liberar), lo apague.)
+// 
+// Realice una mejora al mismo, de manera tal que cada vez que cambia el estado del LED, 
+// se presente una leyenda en el terminal del puerto serie que indique el estado del LED:
+// “Se encendió el LED” --- “ Se apagó el LED”
+
+
 
 // Pines
 #define led 8
