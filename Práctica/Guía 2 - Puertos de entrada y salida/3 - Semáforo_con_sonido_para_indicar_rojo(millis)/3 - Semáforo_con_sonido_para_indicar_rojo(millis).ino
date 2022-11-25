@@ -13,37 +13,76 @@
 #define buzzer 3
 
 // Variables globales
-int pausaLarga = 4000;
-int pausaCorta = 1000;
+const int pausaLarga = 4000;
+const int pausaCorta = 1000;
+int pausa = pausaLarga;
+
+int caso = 0;
+
+unsigned long tiempoPrevio = 0;
+
 
 void setup() {
   pinMode(ledRojo, OUTPUT);       // Rojo
   pinMode(ledAmarillo, OUTPUT);   // Amarillo
   pinMode(ledVerde, OUTPUT);      // Verde
   pinMode(buzzer, OUTPUT);        // Buzzer
+
+  digitalWrite(ledRojo, LOW);
+  digitalWrite(ledAmarillo, LOW);
+  digitalWrite(ledVerde, LOW);
+  digitalWrite(buzzer, LOW);
 }
 
 void loop() {
-  digitalWrite(ledVerde, HIGH);    // Verde ENCENDIDO
 
-  delay(pausaLarga);               // Espera 4 segundos
+  unsigned long tiempoActual = millis();  // Tiempo actual que lleva ejecutándose el programa
 
-  digitalWrite(ledVerde, LOW);     // Verde APAGADO
-  digitalWrite(ledAmarillo, HIGH); // Amarillo ENCENDIDO
+  if (tiempoActual - tiempoPrevio >= pausa){
+    caso++;
+    tiempoPrevio = tiempoActual;  // Actualiza el tiempo previo para la siguiente comapración
+  }
 
-  delay(pausaCorta);               // Espera 1 segundo
+  if (caso >= 4){
+    // Reinicia al primer caso cuando termina el ciclo del semáforo
+    caso = 0;
+  }
 
-  digitalWrite(ledAmarillo, LOW);  // Amarillo APAGADO
-  digitalWrite(ledRojo, HIGH);     // Rojo ENCENDIDO
-  digitalWrite(buzzer, HIGH);      // Buzzer ENCENDIDO
+  switch(caso){
+    case 0:
+      digitalWrite(ledVerde, HIGH);    // Verde ENCENDIDO
+      break;
 
-  delay(pausaLarga);               // Espera 4 segundos
+    case 1:
+      digitalWrite(ledAmarillo, HIGH); // Amarillo ENCENDIDO
+      break;
+    
+    case 2:
+      digitalWrite(ledRojo, HIGH);     // Rojo ENCENDIDO
+      digitalWrite(buzzer, HIGH);      // Buzzer ENCENDIDO
+      break;
+    
+    case 3:
+      digitalWrite(ledAmarillo, HIGH); // Amarillo ENCENDIDO
+      digitalWrite(ledRojo, HIGH);     // Rojo ENCENDIDO
+      break;
+  }
 
-  digitalWrite(buzzer, LOW);       // Buzzer APAGADO
-  digitalWrite(ledAmarillo, HIGH); // Amarillo ENCENDIDO
+  // Actualizo la variable pausa dependiendo en que etapa se encuentra el semáforo
+  if (caso == 0 || caso == 2){
+    pausa = pausaLarga;
+  }
+  else if (caso == 1 || caso == 3){
+    pausa = pausaCorta;
+  }
 
-  delay(pausaCorta);               // Espera 1 segundo
+  apagarSemaforo();
 
-  digitalWrite(ledAmarillo, LOW);  // Amarillo APAGADO
-  digitalWrite(ledRojo, LOW);      // Rojo APAGADO  
+}
+
+void apagarSemaforo(){
+  digitalWrite(ledRojo, LOW);
+  digitalWrite(ledAmarillo, LOW);
+  digitalWrite(ledVerde, LOW);
+  digitalWrite(buzzer, LOW);
 }
