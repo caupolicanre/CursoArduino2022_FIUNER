@@ -40,12 +40,12 @@ void loop() {
 
   if (tiempoActual - tiempoPrevio >= pausa){
     caso++;
+    if (caso >= 4){
+      // Reinicia al primer caso cuando termina el ciclo del semáforo
+      caso = 0;
+    }
+    
     tiempoPrevio = tiempoActual;  // Actualiza el tiempo previo para la siguiente comapración
-  }
-
-  if (caso >= 4){
-    // Reinicia al primer caso cuando termina el ciclo del semáforo
-    caso = 0;
   }
 
   switch(caso){
