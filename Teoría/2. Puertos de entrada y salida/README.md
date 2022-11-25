@@ -63,10 +63,10 @@ Si necesita ayuda, puede revisar el uso de la función [millis](https://www.ardu
 > - [Código](https://github.com/caupolicanre/CursoArduino2022_FIUNER/blob/main/Pr%C3%A1ctica/Gu%C3%ADa%202%20-%20Puertos%20de%20entrada%20y%20salida/3%20-%20Sem%C3%A1foro_con_sonido_para_indicar_rojo(millis)/3%20-%20Sem%C3%A1foro_con_sonido_para_indicar_rojo(millis).ino)
 
 
-> ****************[Ejercicio 4](): “Secuencia de LEDs”****************  
+> ****************[Ejercicio 4](https://github.com/caupolicanre/CursoArduino2022_FIUNER/tree/main/Pr%C3%A1ctica/Gu%C3%ADa%202%20-%20Puertos%20de%20entrada%20y%20salida/4%20-%20Secuencia_de_LEDs): “Secuencia de LEDs”****************  
 ”Conectar 8 LEDs del mismo color y programar una secuencia en la cual se vayan encendiendo de a uno consecutivamente (como si fuera un punto que se va desplazando).”
 > 
-> - [Código]()
+> - [Código](https://github.com/caupolicanre/CursoArduino2022_FIUNER/blob/main/Pr%C3%A1ctica/Gu%C3%ADa%202%20-%20Puertos%20de%20entrada%20y%20salida/4%20-%20Secuencia_de_LEDs/4%20-%20Secuencia_de_LEDs.ino)
 
 
 > ****************[Ejercicio 5](https://github.com/caupolicanre/CursoArduino2022_FIUNER/tree/main/Pr%C3%A1ctica/Gu%C3%ADa%202%20-%20Puertos%20de%20entrada%20y%20salida/5%20-%20Pulsador_enciende_LED): “Pulsador enciende LED”****************  
