@@ -18,8 +18,8 @@ unsigned char  SENIAL[] = {
 18,18,19,19,19,19,18,17,17,18,18,18,18,18,18,18,18,17,17,17,17,17,17,17};
 
 int indice = 0; // Índice para recorrer la senial
-const int limiteSenial = sizeof(SENIAL)-1 // Límite del arreglo
-const int intervalo 5; //ms
+const int limiteSenial = sizeof(SENIAL)-1; // Límite del arreglo
+const int intervalo = 5; //ms
 
 // Variables para trabajar con la función millis
 unsigned long tiempoPrevio = 0;
@@ -32,7 +32,13 @@ void setup(){
 void loop(){
   tiempoActual = millis();
 
-  if (tiempoActual - tiempoPrevio >= intervalo){
+  if (tiempoActual - tiempoPrevio >= intervalo){     
+    
+    // Variables para ajustar la escala del Eje Y
+    Serial.print(0); // Mínimo
+    Serial.print(" ");
+    Serial.print(300); // Máximo
+    Serial.print(" ");
 
     Serial.println(SENIAL[indice]);
 
