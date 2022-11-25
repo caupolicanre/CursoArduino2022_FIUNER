@@ -58,7 +58,7 @@
 
 > ****************[Ejercicio 3](https://github.com/caupolicanre/CursoArduino2022_FIUNER/tree/main/Pr%C3%A1ctica/Gu%C3%ADa%202%20-%20Puertos%20de%20entrada%20y%20salida/3%20-%20Sem%C3%A1foro_con_sonido_para_indicar_rojo(millis)): “Semáforo con sonido para indicar rojo (millis)”****************  
 ”Reescriba el programa del ejercicio 2 sin utilizar retardos (delay).  
-Si necesita ayuda, puede revisar el uso de la función [millis](https://www.arduino.cc/reference/en/language/functions/time/millis/) en la que incluso puede encontrar el ejemplo resuelto.”
+Si necesita ayuda, puede revisar el uso de la función [millis](https://www.arduino.cc/reference/en/language/functions/time/millis/) en la que incluso puede encontrar el [ejemplo resuelto](https://docs.arduino.cc/built-in-examples/digital/BlinkWithoutDelay).”
 > 
 > - [Código](https://github.com/caupolicanre/CursoArduino2022_FIUNER/blob/main/Pr%C3%A1ctica/Gu%C3%ADa%202%20-%20Puertos%20de%20entrada%20y%20salida/3%20-%20Sem%C3%A1foro_con_sonido_para_indicar_rojo(millis)/3%20-%20Sem%C3%A1foro_con_sonido_para_indicar_rojo(millis).ino)
 
