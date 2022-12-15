@@ -34,11 +34,6 @@ void loop(){
 
   if (tiempoActual - tiempoPrevio >= intervalo){     
     
-    // Variables para ajustar la escala del Eje Y
-    Serial.print(0); // Mínimo
-    Serial.print(" ");
-    Serial.print(300); // Máximo
-    Serial.print(" ");
 
     Serial.println(SENIAL[indice]);
 

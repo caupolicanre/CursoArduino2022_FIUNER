@@ -7,9 +7,17 @@
 #define ledExt_1 13 // Led que parpadea a doble de frecuencia
 #define pulsador 2
 
-// Variables globales para el pulsador
+// Variables para el pulsador
 int estadoAnterior = -1;
+int estadoActual;
 bool encendido = false;
+
+// Variables para la función millis()
+unsigned long tiempoPrevio = 0;
+unsigned long tiempoActual;
+
+const int intervalo = 500; // ms
+int caso = 0;
 
 void setup() {
   // Inicializo los leds como salida
@@ -20,21 +28,23 @@ void setup() {
 
 void loop() {
 
-  int estadoActual = digitalRead(pulsador);
+  tiempoActual = millis();
+  estadoActual = digitalRead(pulsador);
 
-  if(estadoActual == LOW && estadoAnterior == HIGH){
+  if (estadoActual == LOW && estadoAnterior == HIGH){
     cambiarEstadoPulsador();
   }
 
   estadoAnterior = estadoActual;
 
-  while(encendido == true){
+  if (encendido == true && tiempoActual - tiempoPrevio >= intervalo){
     parpadeoContrafase();
-
-    estadoActual = digitalRead(pulsador);
-    if(estadoActual == LOW && estadoAnterior == HIGH){
-      cambiarEstadoPulsador();
+    caso++;
+    if (caso >= 4){
+      // Reinicia al primer caso cuando termina el ciclo del semáforo
+      caso = 0;
     }
+    
     estadoAnterior = estadoActual;
   }
 
@@ -57,17 +67,21 @@ void cambiarEstadoPulsador(){
 }
 
 void parpadeoContrafase(){
-  digitalWrite(ledExt_1, HIGH);
-  digitalWrite(ledExt_2, HIGH);
+  switch(caso){
+    case 0:
+      digitalWrite(ledExt_1, HIGH);
+      digitalWrite(ledExt_2, HIGH);
+      break;
 
-  delay(500);
-  cambiarEstadoLed(ledExt_1);
-
-  delay(500);
-  cambiarEstadoLed(ledExt_2);
-  cambiarEstadoLed(ledExt_1);
-
-  delay(500);
-  cambiarEstadoLed(ledExt_1);
-  delay(500);
+    case 1:
+      cambiarEstadoLed(ledExt_1);
+      break;
+      
+    case 2:
+      cambiarEstadoLed(ledExt_2);
+      cambiarEstadoLed(ledExt_1);
+    
+    case 3:
+      cambiarEstadoLed(ledExt_1);
+  }
 }
