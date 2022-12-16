@@ -46,10 +46,10 @@ void loop() {
       digitalWrite(TRIGGER_PIN, LOW);  
       delta_time = pulseIn(ECHO_PIN, HIGH);
       //delta_time = pulseIn(ECHO_PIN, HIGH); //obtenemos el ancho del pulso 
-       distance = delta_time/58;
-       Serial.print("Distancia: ");
-       Serial.print(distance);
-       Serial.println(" cm");
+      distance = delta_time/58;
+      Serial.print("Distancia: ");
+      Serial.print(distance);
+      Serial.println(" cm");
   }else{
       
       
@@ -59,21 +59,21 @@ void loop() {
   delay(100);                       // wait 
 }
 
-void delya1uS(void){
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  }
+// void delya1uS(void){
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   __asm__("nop\n\t");
+//   }
