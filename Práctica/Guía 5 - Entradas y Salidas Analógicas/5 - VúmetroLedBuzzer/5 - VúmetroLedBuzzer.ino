@@ -6,18 +6,17 @@
 
 // Bibliotecas
 #include <Arduino.h>
-
 #include "Talkie.h"
 #include "Vocab_US_Large.h"
 #include "Vocab_Special.h"
-#include "Vocab_US_TI99.h"
-#include "Vocab_US_Clock.h"
+// #include "Vocab_US_TI99.h"
+// #include "Vocab_US_Clock.h"
 
-//Talkie voice
+// Talkie voice
 Talkie voice(true, false);
 
 // Pines
-#define ledRojo 6
+#define ledRojo 5
 #define ledAmarillo 7
 #define ledVerde 8
 #define Buzzer 3
@@ -26,6 +25,8 @@ Talkie voice(true, false);
 #define PERIODO_MUESTREO 100 /* 100 ms */
 #define MIN_ENTRADA_ANALOGICA 0
 #define MAX_ENTRADA_ANALOGICA 1023
+#define MIN_SALIDA_ANALOGICA 0
+#define MAX_SALIDA_ANALOGICA 255
 
 const int umbral1 = 3.3;
 const int umbral2 = 4.9;
@@ -33,6 +34,7 @@ const int umbral2 = 4.9;
 const int analogInPin = A0;      /* Entrada Analógica conectada al potenciómetro */
 
 int valorDigitalPote = 0;        /* Valor digitalizado de la entrada analogica */
+float salidaAnalogicaLed = 0;    // Salida PWM conectad al Led
 float voltaje;
 
 void apagarLeds(){
@@ -67,7 +69,6 @@ void setup() {
   pinMode(ledRojo, OUTPUT);
   pinMode(ledAmarillo, OUTPUT);
   pinMode(ledVerde, OUTPUT);
-  pinMode(analogInPin, INPUT);
   pinMode(Buzzer, OUTPUT);
 
   // Los leds se inicializan apagados
@@ -84,6 +85,10 @@ void loop() {
   
   valorDigitalPote = analogRead(analogInPin);
   voltaje = (valorDigitalPote - MIN_ENTRADA_ANALOGICA)* 5.0 / MAX_ENTRADA_ANALOGICA ;
+
+  Serial.print("Voltaje: ");
+  Serial.print(voltaje);
+  Serial.print("V\t");
 
   apagarLeds();
   prenderLed(voltaje);
