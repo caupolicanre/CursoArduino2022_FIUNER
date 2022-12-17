@@ -58,22 +58,3 @@ void loop() {
   state_previous = digitalRead(EXTERNAL_BUTTON); 
   delay(100);                       // wait 
 }
-
-// void delya1uS(void){
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   __asm__("nop\n\t");
-//   }

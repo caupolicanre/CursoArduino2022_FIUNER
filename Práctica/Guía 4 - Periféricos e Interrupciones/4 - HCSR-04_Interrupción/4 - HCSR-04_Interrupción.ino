@@ -11,6 +11,10 @@
 #define EXTERNAL_BUTTON     2   // pin para la interrupción
 
 
+/*Variables auxiliares para el debouncing del botón*/
+bool state_now = false;
+bool state_previous = false;
+
 /* Variable auxiliar para controlar la medición */
 bool measure = false;
 int delta_time = 0;
@@ -20,13 +24,11 @@ float distance = 0;
 void buttonInterrupt() {
   measure = !measure;
 
-  switch(measure){
-    case 1:
-      Serial.println("Iniciando medición");
-    break;
-    case 0:
-      Serial.println("Deteniendo medición");
-    break;
+  if(measure == true){
+    Serial.println("Iniciando medición");
+  }
+  if(measure == false){
+    Serial.println("Deteniendo medición");
   }
 }
 
@@ -62,22 +64,3 @@ void loop() {
  
   delay(100);
 }
-
-void delya1uS(void){
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  __asm__("nop\n\t");
-  }
